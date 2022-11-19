@@ -781,4 +781,69 @@ footer {
         font-size: 0.5rem;
         padding: 0;
     }
+
+    .sidebar {
+        width: 10rem;
+        height: 100vh;
+    }
+
+    .menu-link {
+        font-size: 1.2rem;
+    }
+
+    .social-media i {
+        height: 1.6rem;
+        width: 1.6rem;
+        font-size: 0.8rem;
+    }
+
+    .line {
+        width: 1.6rem;
+        transition: transform 2s;
+    }
+
+    .show-menu .hamburguer {
+        right: 10rem;
+    }
+
+    .show-menu #line3 {
+        transform: rotate(-45deg) translate(0.2rem, -0.5rem);
+
+    }
+
+    .hamburguer span {
+        width: 5rem;
+    }
+
+    .sessao-header h1 {
+        font-size: 2rem;
+    }
+
+    .conhecimento-header i {
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+
+    .conhecimento-header h3 {
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+
+
+    .conhecimento-text p {
+        font-size: 0.7rem;
+    }
+
+    .card {
+        width: 8rem;
+        height: 17rem;
+    }
+
+    .card-info p {
+        font-size: 0.6rem;
+    }
+
+    /* continuar orçamento L */
+
+
 }
