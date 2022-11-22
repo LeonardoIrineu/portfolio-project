@@ -843,7 +843,124 @@ footer {
         font-size: 0.6rem;
     }
 
-    /* continuar orçamento L */
+    .sessao-contato {
+        width: 0;
+        height: 0;
+    }
 
+    .contato-left {
+        visibility: hidden;
+    }
+
+    .contato-right {
+        visibility: hidden;
+    }
+
+    .orcamento-wrapper {
+        width: 20rem;
+        height: 26rem;
+    }
+
+    .sessao-orcamento label {
+        font-size: 0.9rem;
+    }
+
+    .sessao-orcamento input[type='number'] {
+        width: 1.4rem;
+        font-size: 1rem;
+    }
+
+    .sessao-orcamento input[type='checkbox'] {
+        width: 1.7rem;
+        height: 1rem;
+    }
+
+    .sessao-orcamento h1 {
+        font-size: 1rem;
+        top: -1rem;
+    }
+
+    .btn-orcamento {
+        width: 5rem;
+        height: 2rem;
+        font-size: 0.7rem;
+        text-align: center;
+        padding: 0 0 0.2rem;
+    }
+
+    .footer {
+        height: 4rem;
+    }
+
+    .social-list {
+        padding-top: 40px;
+    }
+
+    #link-topo {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .banner h1 {
+        font-size: 1.8rem;
+    }
+
+    .sessao-header h1 {
+        font-size: 1.8rem;
+    }
+
+    .conhecimento-header h3 {
+        font-size: 0.8rem;
+    }
+
+    .conhecimento-header i {
+        font-size: 0.8rem;
+    }
+
+    .conhecimento-text p {
+        font-size: 0.6rem;
+    }
+
+    .card-1 {
+        left: 35px;
+    }
+
+    .card-2 {
+        left: 90px;
+    }
+
+    .card-3 {
+        visibility: hidden;
+    }
+
+    .footer-content p {
+        font-size: 0.7rem;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .card-info h2 {
+        font-size: 1rem;
+    }
+
+    .card-2 {
+        left: 80px;
+    }
+
+    .orcamento-wrapper {
+        width: 18rem;
+        height: 26rem;
+    }
+
+    .orcamento-wrapper input[type="range"] {
+        width: 6rem;
+    }
+
+    .footer-content {
+        width: 100%;
+    }
 
 }
