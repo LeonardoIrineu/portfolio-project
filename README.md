@@ -12,3 +12,9 @@ O controle das tarefas desse projeto será realizado no GitHub
 - :up: atualização
 - :beetle: correção de bug
 - :checkered_flag: release
+
+## Link
+
+Link para testar o projeto: https://pj-portifolio-leonardoirineu.netlify.app/
+
+Link to test the project: https://pj-portifolio-leonardoirineu.netlify.app/
