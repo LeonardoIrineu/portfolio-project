@@ -783,12 +783,12 @@ footer {
     }
 
     .sidebar {
-        width: 10rem;
+        width: 8rem;
         height: 100vh;
     }
 
     .menu-link {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .social-media i {
@@ -803,7 +803,7 @@ footer {
     }
 
     .show-menu .hamburguer {
-        right: 10rem;
+        right: 8rem;
     }
 
     .show-menu #line3 {
@@ -831,12 +831,20 @@ footer {
 
 
     .conhecimento-text p {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
 
     .card {
         width: 8rem;
-        height: 17rem;
+        height: 16rem;
+    }
+
+    .card-info h2 {
+        font-size: 1.2rem;
+    }
+
+    .card-info {
+        font-size: 0.6rem;
     }
 
     .card-info p {
@@ -934,8 +942,14 @@ footer {
         visibility: hidden;
     }
 
+    .sessao-orcamento {
+        height: 36rem;
+    }
+
     .footer-content p {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
+        padding-top: 2rem;
+        padding-left: 2rem;
     }
 
 }
